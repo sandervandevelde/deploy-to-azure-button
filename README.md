@@ -64,10 +64,7 @@ _Note_: output values being a secret are shown without obfuscation!
 
 ## Links
 
-Learn about BICEP quickstart:
+[Learn about BICEP quickstart](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI&WT.mc_id=IoT-MVP-5002324)
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI&WT.mc_id=IoT-MVP-5002324
-
-Creating an 'Deploy to Azure function':
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button?WT.mc_id=IoT-MVP-5002324
+[Creating an 'Deploy to Azure button'](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button?WT.mc_id=IoT-MVP-5002324)
 
