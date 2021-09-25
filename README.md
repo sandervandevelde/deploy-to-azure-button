@@ -28,3 +28,6 @@ az bicep build --file main.bicep --outdir .
 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsandervandevelde%2Fdeploy-to-azure-button%2Fmain%2Fmain.json)
+
+Example:
+![image](https://user-images.githubusercontent.com/694737/134773163-95e6bd1f-d991-4d20-a94a-032b3a507c1a.png)
