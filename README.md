@@ -8,7 +8,7 @@ Although BICEP is now the preferred way of creating Azure deployments as code (I
 
 ### Can Github help?
 
-You could let Github actions create the ARM template each time the BICEP template is checked in...
+You could let Github actions [create the ARM template](https://stackoverflow.com/questions/66645149/how-to-create-a-deploy-to-azure-button-that-uses-a-bicep-instead-of-an-json-te) each time the BICEP template is checked in...
 
 ## Prerequisites
 
