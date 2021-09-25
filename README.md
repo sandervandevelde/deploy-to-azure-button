@@ -12,8 +12,8 @@ You could let Github actions [create the ARM template](https://stackoverflow.com
 
 ## Prerequisites
 
-For building and deploying:
-- AZ CLI in 
+For building (and deploying from prompt):
+- AZ CLI (In this demonstration I use the Powershell [AZ module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-6.4.0))
 - AZ Bicep extension
 
 For programming:
@@ -34,7 +34,7 @@ az bicep --help
 az bicep build --file main.bicep --outdir .
 ```
 
-## Demonstration
+## Demonstration of deployment by Button
 
 Hit this button to deploy the ARM template as seen in this repository:
 
@@ -63,5 +63,11 @@ _Note_: The input parameter is defined in the BICEP / ARM template.
 _Note_: output values being a secret are shown without obfuscation!
 
 ## Links
+
+Learn about BICEP quickstart:
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI
+
 Creating an 'Deploy to Azure function':
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button
+
