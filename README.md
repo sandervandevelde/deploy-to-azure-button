@@ -33,3 +33,6 @@ az bicep build --file main.bicep --outdir .
 
 ![image](https://user-images.githubusercontent.com/694737/134773163-95e6bd1f-d991-4d20-a94a-032b3a507c1a.png)
 
+_Note_: The selection of the resourcegroup is not part of the BICEP / ARM template. It expects a resource is available. This selection is provided by the portal.
+
+_Note_: The input parameter is defined in the BICEP / ARM template.
