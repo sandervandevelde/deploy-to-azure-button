@@ -1,5 +1,11 @@
 # deploy-to-azure-button
 
+This repo show the experience of deploying an ARM template via a click of a button.
+
+## ARM templates are deployed, not BICEP
+
+Although BICEP is now the preferred way of creating Azure deployments as code (Infrastructure as Code or IaC), the ARM templates built from BICEP are actually deployed. 
+
 ## Prerequisites
 
 For building and deploying:
@@ -53,4 +59,3 @@ _Note_: output values being a secret are shown without obfuscation!
 ## Links
 Creating an 'Deploy to Azure function':
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button
-
