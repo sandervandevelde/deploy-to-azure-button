@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.4.613.9944",
+      "templateHash": "16566843126863072798"
+    }
+  },
+  "parameters": {
+    "storageName": {
+      "type": "string",
+      "metadata": {
+        "description": "Provide a name for the storage account. Use only lower case letters and numbers. The name must be unique across Azure."
+      },
+      "maxLength": 24,
+      "minLength": 3
+    }
+  },
+  "functions": [],
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2021-02-01",
+      "name": "[parameters('storageName')]",
+      "location": "eastus",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2"
+    }
+  ],
+  "outputs": {
+    "storagename": {
+      "type": "string",
+      "value": "[parameters('storageName')]"
+    },
+    "storagekey": {
+      "type": "string",
+      "value": "[listKeys(resourceId('Microsoft.Storage/storageAccounts', parameters('storageName')), '2021-02-01').keys[0].value]"
+    }
+  }
+}
