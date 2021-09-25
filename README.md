@@ -13,7 +13,7 @@ You could let Github actions [create the ARM template](https://stackoverflow.com
 ## Prerequisites
 
 For building (and deploying from prompt):
-- AZ CLI (In this demonstration I use the Powershell [AZ module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-6.4.0))
+- AZ CLI (In this demonstration I use the Powershell [AZ module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-6.4.0&WT.mc_id=IoT-MVP-5002324))
 - AZ Bicep extension
 
 For programming:
@@ -66,8 +66,8 @@ _Note_: output values being a secret are shown without obfuscation!
 
 Learn about BICEP quickstart:
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI&WT.mc_id=IoT-MVP-5002324
 
 Creating an 'Deploy to Azure function':
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-azure-button?WT.mc_id=IoT-MVP-5002324
 
