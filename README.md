@@ -6,6 +6,10 @@ This repo show the experience of deploying an ARM template via a click of a butt
 
 Although BICEP is now the preferred way of creating Azure deployments as code (Infrastructure as Code or IaC), the ARM templates built from BICEP are actually deployed. 
 
+### Can Github help?
+
+You could let Github actions create the ARM template each time the BICEP template is checked in...
+
 ## Prerequisites
 
 For building and deploying:
@@ -35,6 +39,8 @@ az bicep build --file main.bicep --outdir .
 Hit this button to deploy the ARM template as seen in this repository:
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsandervandevelde%2Fdeploy-to-azure-button%2Fmain%2Fmain.json)
+
+Notice we make use of this link: 'https://portal.azure.com/#create/Microsoft.Template/uri/[url of arm template]' which we feed with the raw https://raw.githubusercontent.com/sandervandevelde/deploy-to-azure-button/main/main.json. The raw url is [URL encoded](https://www.urlencoder.org/).  
 
 ### Example of portal experience
 
